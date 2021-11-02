@@ -1,0 +1,62 @@
+<html>
+<head>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/topojson.v3.min.js"></script>
+</head>
+
+<body>
+
+Outcomes
+<select name="cars" id="cars">
+  <option value="volvo">Party</option>
+  <option value="saab">Sex</option>
+  <option value="mercedes">Race</option>
+</select>
+
+<br>Filter<br>
+Median Household Income
+<select name="cars" id="cars">
+  <option value="volvo">Above</option>
+  <option value="saab">Below</option>
+</select>
+<form style="display: inline;"><input type="number" value="0"></form>
+<br>
+Percent with a Bachelor's or Higher
+<select name="cars" id="cars">
+  <option value="volvo">Above</option>
+  <option value="saab">Below</option>
+</select>
+<form style="display: inline;"><input type="number" value="0"></form>
+<br>
+Percent of Population of a certain race/ethnicity
+<select name="cars" id="cars">
+  <option value="volvo">Asian</option>
+  <option value="saab">Black</option>
+<option value="saab">Hispanic</option>
+<option value="saab">White</option>
+</select>
+<select name="cars" id="cars">
+  <option value="volvo">Above</option>
+  <option value="saab">Below</option>
+</select>
+<form style="display: inline;"><input type="number" value="0"></form>
+<br>
+<svg height="700" width="1400" style="border:1px solid black" />
+
+<script>
+const svg = d3.select("svg");
+
+svg.append("rect").attr("x", 10).attr("y", 10).attr("width", 1000).attr("height", 580).style("fill", "lightblue");
+svg.append("text").attr("x", 350).attr("y", 260).text("USA Map goes here");
+
+svg.append("circle").attr("cx", 1200).attr("cy", 350).attr("r", 150).style("fill", "lightblue");
+svg.append("text").attr("x", 1100).attr("y", 350).text("pie chart goes here");
+
+
+
+</script>
+
+
+
+</body>
+</html>
