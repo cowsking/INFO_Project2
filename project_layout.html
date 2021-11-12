@@ -24,21 +24,19 @@
     <a href="#" class="btn-gradient blue mini" id="par">#Party#</a>
   </div>
 
-  <select name="cars" id="cars">
-    <option value="volvo">Party</option>
-    <option value="saab">Sex</option>
-    <option value="mercedes">Race</option>
-  </select>
 
-  <br />Filter<br />
+
+  <br>Filter<br>
+<div class="income">
   Median Household Income
-  <select name="cars" id="cars">
-    <option value="volvo">Above</option>
-    <option value="saab">Below</option>
+  <select id="incomeAbove">
+    <option value=true>Above</option>
+    <option value=false>Below</option>
   </select>
-
-  <form style="display: inline"><input type="number" value="0" /></form>
-  <br />
+  <input type="range" min="1" max="100000" value="0" class="slider" id="incomeSlider">
+  <g id="incomeDisplay">$0</g>
+</div>
+  <br>
   Percent with a Bachelor's or Higher
   <select name="cars" id="cars">
     <option value="volvo">Above</option>
@@ -94,12 +92,27 @@
     var zips = topojson.feature(us_house, us_house.objects["us-house-us-house"]);
     var zipsMesh = topojson.mesh(us_house, us_house.objects["us-house-us-house"]);
 
-    console.log(zips)
+
+//Load District Demographics Data
+
+const stateList = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New_Hampshire','New_Jersey','New_Mexico','New_York','North_Carolina','North_Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode_Island','South_Carolina','South_Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West_Virginia','Wisconsin','Wyoming'];
+
+let districtData = [];
+for (let i = 0; i < stateList.length; i++) {
+  districtData.push(d3.csv("DistrictDemoData\\"+stateList[i]+"_District_all.csv")); 
+}
+districtData = await Promise.all(districtData);
+for (let i = 0; i < stateList.length; i++) {
+  districtData[i].state = stateList[i];   
+}
+
+console.log(districtData);
+    console.log(zips);
     // console.log(us_house);
     // var center = d3.geo.centroid(us_house)
     // var scale = 1000;
     var projection = d3
-      .geoMercator()
+      .geoAlbersUsa()
       .fitSize([mapWidth, mapHeight], zips);
     // .scale(scale)
     // .translate([mapWidth / 2 + 1670, mapHeight / 2 + 700]);
@@ -155,6 +168,8 @@
         .attr("stroke", "white")
         .attr("stroke-width", 2);
 
+let activeColor = null;
+
     let btnGen = document.getElementById("gen");
     btnGen.onclick = function () {
       map.selectAll("path.state").data(zips.features)
@@ -168,6 +183,9 @@
         .attr("d", path)
         .attr("stroke", "white")
         .attr("stroke-width", 2);
+activeColor = function(d) {
+return genderColor(d.properties.gender)
+};
     };
 
     let btnPar = document.getElementById("par");
@@ -183,6 +201,10 @@
         .attr("d", path)
         .attr("stroke", "white")
         .attr("stroke-width", 2);
+
+activeColor = function(d) {
+return partyColor(d.properties.gender)
+};
     };
 
     let btnRac = document.getElementById("rac");
@@ -198,7 +220,54 @@
         .attr("d", path)
         .attr("stroke", "white")
         .attr("stroke-width", 2);
+activeColor = function(d) {
+return raceColor(d.properties.gender)
+};
     };
+
+
+const stateList2 = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New_Mexico','New York','North_Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
+
+const typeDictionary = {"income": 198};
+
+//returns true if district passes filter (show color) and false if district fails filter (make it gray)
+filterColor = function (state_name, district, above, type, quantity) {
+let stateIndex = stateList2.indexOf(state_name);
+let typeIndex = typeDictionary[type];
+let districtIndex = Number(district)<=9 ? "District 0"+district+" Estimate": "District "+district+" Estimate";
+let temp = districtData[stateIndex];
+temp = temp[typeIndex];
+temp = temp[districtIndex];
+if (above) {
+  if(temp > quantity) 
+    {return true;}
+}
+else 
+return false;
+console.log("stateIndex"+stateIndex +"typeIndex "+typeIndex +"districtIndex "+districtIndex );
+}
+updateMap = function(aboveOrBelow, type, quantity) {
+map.selectAll("path.state").data(zips.features)
+        .join("path")
+        .attr("class", "state")
+        .attr("d", path)
+        .style("fill", d => filterColor(d.state_name, d.district, aboveOrBelow, type, quantity) ? activeColor(d) : "grey");
+}
+const incomeAbove = document.getElementById("incomeAbove");
+const incomeSlider = document.getElementById("incomeSlider");
+const incomeInput = document.getElementById("incomeInput");
+incomeSlider.onchange = function(){updateMap(incomeAbove.value, "income", incomeSlider.value)};
+incomeSlider.oninput = function(){document.getElementById("incomeDisplay").innerHTML = "$"+incomeSlider.value};
+
+zips.features.forEach(d => console.log(d.properties.state_name))
+
+console.log(filterColor("Alabama", "2", true, "income", 60000)); //f
+console.log(filterColor("Alabama", "2", true, "income", 50000)); //t
+console.log(filterColor("Alabama", "2", false, "income", 60000)); //t
+console.log(filterColor("Alabama", "2", false, "income", 50000)); //f
+console.log(districtData[0][198]["District 02 Estimate"]);
+
+console.log(incomeSlider);
   };
   requestData();
 
