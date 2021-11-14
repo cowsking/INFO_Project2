@@ -1,340 +1,340 @@
-cdTopic,Subject,Title,"District 01 Estimate","District 01 MOE","District 02 Estimate","District 02 MOE","District 03 Estimate","District 03 MOE","District 04 Estimate","District 04 MOE","District 05 Estimate","District 05 MOE","District 06 Estimate","District 06 MOE","District 07 Estimate","District 07 MOE","District 08 Estimate","District 08 MOE","District 09 Estimate","District 09 MOE","District 10 Estimate","District 10 MOE","District 11 Estimate","District 11 MOE","District 12 Estimate","District 12 MOE","District 13 Estimate","District 13 MOE"
-People,"Sex and Age","Total population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age",Male,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age",Female,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","Under 5 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","5 to 9 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","10 to 14 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","15 to 19 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","20 to 24 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","25 to 34 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","35 to 44 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","45 to 54 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","55 to 59 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","60 to 64 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","65 to 74 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","75 to 84 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","85 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","Median age (years)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","18 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Sex and Age","65 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"Total population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"One race",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,White,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"Black or African American",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"American Indian and Alaska Native",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,Asian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"Native Hawaiian and Other Pacific Islander",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"Some other race",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Race,"Two or more races",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race","Total population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race","Hispanic or Latino (of any race)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race",Mexican,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race","Puerto Rican",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race",Cuban,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race","Other Hispanic or Latino",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Hispanic or Latino and Race","Not Hispanic or Latino",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth","Total population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth",Native,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth","Born in United States",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth","State of residence",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth","Different state",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth","Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Place of Birth","Foreign born",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,"Total population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,American,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Arab,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Czech,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Danish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Dutch,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,English,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,"French (except Basque)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,"French Canadian",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,German,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Greek,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Hungarian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Irish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Italian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Lithuanian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Norwegian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Polish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Portuguese,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Russian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Scotch-Irish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Scottish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Slovak,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,"Subsaharan African",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Swedish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Swiss,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Ukrainian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,Welsh,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,Ancestry,"West Indian (excluding Hispanic origin groups)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Veteran Status","Civilian population 18 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Veteran Status","Civilian veterans",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","Total civilian noninstitutionalized population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","With a disability",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","Under 18 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","With a disability",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","18 to 64 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","With a disability",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","65 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Disability Status of the Civilian Noninstitutionalized Population","With a disability",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Population 1 year and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Same house",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Different house in the U.S.",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Same county",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Different county",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Same state",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago","Different state",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-People,"Residence 1 Year Ago",Abroad,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","Population 16 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","In labor force",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","Civilian labor force",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status",Employed,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status",Unemployed,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","Armed Forces",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","Not in labor force",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","Civilian labor force",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Employment Status","Unemployment Rate",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Workers 16 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Car, truck, or van -- drove alone",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Car, truck, or van -- carpooled",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Public transportation (excluding taxicab)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work",Walked,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Other means",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Worked from home",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Commuting to Work","Mean travel time to work (minutes)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Occupation,"Civilian employed population 16 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Occupation,"Management, business, science, and arts occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Occupation,"Service occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Occupation,"Sales and office occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Occupation,"Natural resources, construction, and maintenance occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Occupation,"Production, transportation, and material moving occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Civilian employed population 16 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Agriculture, forestry, fishing and hunting, and mining",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Wholesale trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Retail trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Transportation and warehousing, and utilities",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Finance and insurance, and real estate and rental and leasing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Professional, scientific, and management, and administrative and waste management services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Educational services, and health care and social assistance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Arts, entertainment, and recreation, and accommodation and food services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Other services, except public administration",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,Industry,"Public administration",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Class of Worker","Civilian employed population 16 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Class of Worker","Private wage and salary workers",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Class of Worker","Government workers",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Class of Worker","Self-employed in own not incorporated business workers",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Workers,"Class of Worker","Unpaid family workers",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Occupancy","Total housing units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Occupancy","Occupied housing units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Occupancy","Vacant housing units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Occupancy","Homeowner vacancy rate",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Occupancy","Rental vacancy rate",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Tenure","Occupied housing units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Tenure",Owner-occupied,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Tenure",Renter-occupied,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Tenure","Average household size of owner-occupied unit",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Housing Tenure","Average household size of renter-occupied unit",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Occupied housing units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Moved in 2017 or later",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Moved in 2015 to 2016",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Moved in 2014 to 2014",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Moved in 2000 to 2009",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Moved in 1990 to 1999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Year Householder Moved into Unit","Moved in 1989 and earlier",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"Owner-occupied units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"Less than $50,000",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$50,000 to $99,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$100,000 to $149,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$150,000 to $199,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$200,000 to $299,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$300,000 to $499,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$500,000 to $999,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"$1,000,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,Value,"Median (dollars)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Mortgage Status","Owner-occupied units",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Mortgage Status","Housing units with a mortgage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Mortgage Status","Housing units without a mortgage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","Housing units with a mortgage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","Less than $500",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$500 to $999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$1,000 to $1,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$1,500 to $1,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$2,000 to $2,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$2,500 to $2,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$3,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","Median (dollars)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","Housing units without a mortgage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","Less than $250",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$250 to $399",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$400 to $599",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$600 to $799",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$800 to $999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","$1,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Selected Monthly Owner Costs(SMOC)","Median (dollars)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","Occupied units paying rent",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","Less than $500",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","$500 to $999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","$1,000 to $1,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","$1,500 to $1,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","$2,000 to $2,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","$2,500 to $2,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","$3,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","Median (dollars)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Housing,"Gross Rent","No rent paid",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","Total households",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","Less than $10,000",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$10,000 to $14,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$15,000 to $24,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$25,000 to $34,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$35,000 to $49,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$50,000 to $74,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$75,000 to $99,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$100,000 to $149,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$150,000 to $199,000",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","$200,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","Median household income (dollars)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Income and Benefits (In 2019 inflation-adjusted dollars)","Mean household income (dollars)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","Civilian noninstitutionalized population",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","With health insurance coverage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","With private health insurance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","With public coverage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","No health insurance coverage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","Civilian noninstitutionalized population under 19 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Health Insurance Coverage","No health insurance coverage",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","All families",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","With related children of the householder under 18 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","With related children of the householder under 5 years only",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Married couple families",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","With related children of the householder under 18 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","With related children of the householder under 5 years only",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Families with female householder, no spouse present",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","With related children of the householder under 18 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","With related children of the householder under 5 years only",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","All people",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Under 18 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Related children of the householder under 18 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Related children of the householder under 5 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Related children of the householder 5 to 17 years",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","18 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","65 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","People in families",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Socioeconomic,"Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level","Unrelated individuals 15 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"School Enrollment","Population 3 years and over enrolled in school",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"School Enrollment","Nursery school, preschool",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"School Enrollment",Kindergarten,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"School Enrollment","Elementary school (grades 1-8)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"School Enrollment","High school (grades 9-12)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"School Enrollment","College or graduate school",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Population 25 years and over",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Less than 9th grade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","9th to 12th grade, no diploma",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","High school graduate (includes equivalency)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Some college, no degree",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Associate's degree",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Bachelor's degree",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Graduate or professional degree",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Percent high school graduate or higher",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Education,"Educational Attainment","Percent bachelor's degree or higher",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-
-"The Census Bureau did not collect district boundaries for the 117th Congress, in keeping with the practice of not collecting the session which aligns with the decennial census. "
-"American Community Survey and County Business Patterns for districts in North Carolina are not currently available.  Estimates for the 116th Congressional districts and state and local geographies are available at data.census.gov."
-
-"Source: 2019 American Community Survey 1-Year Estimates"
-"Estimates in the People, Workers, Housing, Socioeconomic, and Education tabs are from the American Community Survey (ACS). The ACS is an annual household survey developed by the U.S. Census Bureau to replace the long form of the decennial census program. Each year, the ACS samples about 3.5 million household addresses to produce nearly 11 billion estimates covering demographic, social, economic, and housing characteristics."
-"Except where noted, 'race' refers to people reporting only one race.  'Hispanic' refers to an ethnic category;  Hispanics may be of any race."
-"An '**' entry in the margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate."
-"An '-' entry in the estimate column indicates that either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution."
-"An '-' following a median estimate means the median falls in the lowest interval of an open-ended distribution."
-"An '+' following a median estimate means the median falls in the upper interval of an open-ended distribution."
-"An '***' entry in the margin of error column indicates that the median falls in the lowest interval or upper interval of an open-ended distribution. A statistical test is not appropriate."
-"An '*****' entry in the margin of error column indicates that the estimate is controlled. A statistical test for sampling variability is not appropriate."
-"An 'N' entry in the estimate and margin of error columns indicates that data for this geographic area cannot be displayed because the number of sample cases is too small."
-"An '(X)' means that the estimate is not applicable or not available"
-"If calculating a percentage, use the total population line within the section as the denominator. Do not use total population lines from other sections since these may have different universes."
-
-Topic,Subject,Title,"District 01 Estimate","District 01 Flag","District 02 Estimate","District 02 Flag","District 03 Estimate","District 03 Flag","District 04 Estimate","District 04 Flag","District 05 Estimate","District 05 Flag","District 06 Estimate","District 06 Flag","District 07 Estimate","District 07 Flag","District 08 Estimate","District 08 Flag","District 09 Estimate","District 09 Flag","District 10 Estimate","District 10 Flag","District 11 Estimate","District 11 Flag","District 12 Estimate","District 12 Flag","District 13 Estimate","District 13 Flag"
-Business,"Paid employees for pay period including March 12","Total for all sectors",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Agriculture, forestry, fishing and hunting",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Mining, quarrying, and oil and gas extraction",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12",Utilities,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12",Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12",Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Wholesale trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Retail trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Transportation and warehousing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12",Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Finance and insurance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Real estate and rental and leasing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Professional, scientific, and technical services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Management of companies and enterprises",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Administrative and support and waste management and remediation services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Educational services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Health care and social assistance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Arts, entertainment, and recreation",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Accommodation and food services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Other services (except public administration)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Paid employees for pay period including March 12","Industries not classified",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Total for all sectors",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Agriculture, forestry, fishing and hunting",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Mining, quarrying, and oil and gas extraction",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)",Utilities,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)",Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)",Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Wholesale trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Retail trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Transportation and warehousing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)",Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Finance and insurance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Real estate and rental and leasing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Professional, scientific, and technical services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Management of companies and enterprises",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Administrative and support and waste management and remediation services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Educational services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Health care and social assistance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Arts, entertainment, and recreation",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Accommodation and food services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Other services (except public administration)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Annual payroll ($1,000)","Industries not classified",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Total for all sectors",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Agriculture, forestry, fishing and hunting",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Mining, quarrying, and oil and gas extraction",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments",Utilities,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments",Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments",Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Wholesale trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Retail trade",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Transportation and warehousing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments",Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Finance and insurance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Real estate and rental and leasing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Professional, scientific, and technical services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Management of companies and enterprises",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Administrative and support and waste management and remediation services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Educational services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Health care and social assistance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Arts, entertainment, and recreation",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Accommodation and food services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Other services (except public administration)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-Business,"Total Establishments","Industries not classified",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X)
-
-"The Census Bureau did not collect district boundaries for the 117th Congress, in keeping with the practice of not collecting the session which aligns with the decennial census. "
-"American Community Survey and County Business Patterns for districts in North Carolina are not currently available.  Estimates for the 116th Congressional districts and state and local geographies are available at data.census.gov."
-
-"Source: 2019 County Business Patterns for Congressional Districts"
-"(X) County Business Patterns data for the State of North Carolina is currently unavailable for this tabulation."
-"1. CBP data includes the number of establishments, employment during the week of March 12, and annual payroll. CBP basic data are extracted from the Business Register (BR), a database of all known single and multi-establishment employer companies maintained and updated by the U.S. Census Bureau. Primary causes of differences between CBP employment estimates and ACS estimates: CBP does not cover the self-employed, public employment, and most agricultural employment; CBP estimates are not based on a sample survey; they represent business location as opposed to workers' residence in the district; use the week of March 12 as a reference period; and use a business source to determine industry."
-"2. Industries not classified - Industry could not be determined."
-"3. Statewide - County Business Patterns data includes employers without a fixed location within a state (or of unknown county location), these are included under a 'statewide' classification. Statewide cases are not included in any particular congressional district (though they would be included in at-large districts). This incomplete detail causes only a slight understatement of a district's total estimates."
-"4. Disclosure and Quality Indicator Flag Definitions:"
-"D Withheld to avoid disclosing data for individual companies; data are included in higher level totals"
-"G Cell value changed by less than 2 percent by the application of noise"
-"H Cell value changed by at least 2 percent but less than 5 percent by the application of noise"
-"J Cell value changed by 5 percent or more by the application of noise"
-"S Cell value withheld because it did not meet publication standards"
-"N Not available or not comparable"
-"X Not applicable"
+cdTopic,Subject,Title,District 01 Estimate,District 01 MOE,District 02 Estimate,District 02 MOE,District 03 Estimate,District 03 MOE,District 04 Estimate,District 04 MOE,District 05 Estimate,District 05 MOE,District 06 Estimate,District 06 MOE,District 07 Estimate,District 07 MOE,District 08 Estimate,District 08 MOE,District 09 Estimate,District 09 MOE,District 10 Estimate,District 10 MOE,District 11 Estimate,District 11 MOE,District 12 Estimate,District 12 MOE,District 13 Estimate,District 13 MOE,,
+People,Sex and Age,Total population,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,Male,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,Female,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,Under 5 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,5 to 9 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,10 to 14 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,15 to 19 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,20 to 24 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,25 to 34 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,35 to 44 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,45 to 54 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,55 to 59 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,60 to 64 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,65 to 74 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,75 to 84 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,85 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,Median age (years),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,18 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Sex and Age,65 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Race,Total population,763500,(X),888547,(X),761753,(X),873270,(X),765013,(X),816402,(X),815055,(X),796413,(X),815055,(X),771791,(X),772612,(X),891729,(X),780466,(X),,
+People,Race,One race,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Race,White,363018,(X),609822,(X),548289,(X),525115,(X),601222,(X),550198,(X),608837,(X),525543,(X),510575,,614574,(X),694680,(X),405087,(X),541609,(X),(X),(X)
+People,Race,Black or African American,330488,(X),159101,(X),153235,(X),195920,(X),114729,(X),158359,(X),154737,(X),180732,(X),153740,(X),96167,(X),22893,(X),333074,(X),169358,(X),,
+People,Race,American Indian and Alaska Native,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Race,Asian,16290,(X),19838,(X),10733,(X),77259,(X),12012,(X),14553,(X),6822,(X),21862,(X),29200,(X),13014,(X),8484,(X),48882,(X),27773,(X),,
+People,Race,Native Hawaiian and Other Pacific Islander,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Race,Some other race,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Race,Two or more races,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Hispanic or Latino and Race,Total population,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Hispanic or Latino and Race,Hispanic or Latino (of any race),70296,(X),90028,(X),61432,(X),89730,(X),73619,(X),78637,(X),77660,(X),88667,(X),63854,(X),50383,(X),51563,(X),136316,(X),63614,(X),,
+People,Hispanic or Latino and Race,Mexican,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Hispanic or Latino and Race,Puerto Rican,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Hispanic or Latino and Race,Cuban,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Hispanic or Latino and Race,Other Hispanic or Latino,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Hispanic or Latino and Race,Not Hispanic or Latino,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,Total population,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,Native,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,Born in United States,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,State of residence,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,Different state,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,"Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Place of Birth,Foreign born,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Total population,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,American,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Arab,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Czech,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Danish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Dutch,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,English,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,French (except Basque),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,French Canadian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,German,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Greek,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Hungarian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Irish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Italian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Lithuanian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Norwegian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Polish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Portuguese,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Russian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Scotch-Irish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Scottish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Slovak,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Subsaharan African,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Swedish,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Swiss,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Ukrainian,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,Welsh,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Ancestry,West Indian (excluding Hispanic origin groups),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Veteran Status,Civilian population 18 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Veteran Status,Civilian veterans,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,Total civilian noninstitutionalized population,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,With a disability,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,Under 18 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,With a disability,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,18 to 64 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,With a disability,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,65 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Disability Status of the Civilian Noninstitutionalized Population,With a disability,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Population 1 year and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Same house,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Different house in the U.S.,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Same county,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Different county,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Same state,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Different state,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+People,Residence 1 Year Ago,Abroad,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Population 16 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,In labor force,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Civilian labor force,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Employed,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Unemployed,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Armed Forces,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Not in labor force,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Civilian labor force,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Employment Status,Unemployment Rate,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,Workers 16 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,"Car, truck, or van -- drove alone",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,"Car, truck, or van -- carpooled",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,Public transportation (excluding taxicab),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,Walked,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,Other means,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,Worked from home,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Commuting to Work,Mean travel time to work (minutes),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Occupation,Civilian employed population 16 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Occupation,"Management, business, science, and arts occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Occupation,Service occupations,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Occupation,Sales and office occupations,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Occupation,"Natural resources, construction, and maintenance occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Occupation,"Production, transportation, and material moving occupations",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Civilian employed population 16 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Agriculture, forestry, fishing and hunting, and mining",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Wholesale trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Retail trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Transportation and warehousing, and utilities",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Finance and insurance, and real estate and rental and leasing",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Professional, scientific, and management, and administrative and waste management services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Educational services, and health care and social assistance",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Arts, entertainment, and recreation, and accommodation and food services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,"Other services, except public administration",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Industry,Public administration,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Class of Worker,Civilian employed population 16 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Class of Worker,Private wage and salary workers,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Class of Worker,Government workers,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Class of Worker,Self-employed in own not incorporated business workers,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Workers,Class of Worker,Unpaid family workers,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Occupancy,Total housing units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Occupancy,Occupied housing units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Occupancy,Vacant housing units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Occupancy,Homeowner vacancy rate,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Occupancy,Rental vacancy rate,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Tenure,Occupied housing units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Tenure,Owner-occupied,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Tenure,Renter-occupied,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Tenure,Average household size of owner-occupied unit,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Housing Tenure,Average household size of renter-occupied unit,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Occupied housing units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Moved in 2017 or later,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Moved in 2015 to 2016,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Moved in 2014 to 2014,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Moved in 2000 to 2009,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Moved in 1990 to 1999,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Year Householder Moved into Unit,Moved in 1989 and earlier,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,Owner-occupied units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"Less than $50,000",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$50,000 to $99,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$100,000 to $149,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$150,000 to $199,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$200,000 to $299,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$300,000 to $499,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$500,000 to $999,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,"$1,000,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Value,Median (dollars),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Mortgage Status,Owner-occupied units,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Mortgage Status,Housing units with a mortgage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Mortgage Status,Housing units without a mortgage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),Housing units with a mortgage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),Less than $500,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),$500 to $999,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),"$1,000 to $1,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),"$1,500 to $1,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),"$2,000 to $2,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),"$2,500 to $2,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),"$3,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),Median (dollars),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),Housing units without a mortgage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),Less than $250,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),$250 to $399,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),$400 to $599,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),$600 to $799,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),$800 to $999,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),"$1,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Selected Monthly Owner Costs(SMOC),Median (dollars),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,Occupied units paying rent,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,Less than $500,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,$500 to $999,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,"$1,000 to $1,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,"$1,500 to $1,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,"$2,000 to $2,499",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,"$2,500 to $2,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,"$3,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,Median (dollars),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Housing,Gross Rent,No rent paid,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),Total households,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"Less than $10,000",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$10,000 to $14,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$15,000 to $24,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$25,000 to $34,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$35,000 to $49,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$50,000 to $74,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$75,000 to $99,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$100,000 to $149,999",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$150,000 to $199,000",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),"$200,000 or more",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),Median household income (dollars),"47,469",(X),"75,366",(X),"53,545",(X),"75,687",(X),"49,376",(X),"54,132",(X),"53,066",(X),"54,507",(X),"66,208",(X),"53,189",(X),"51,884",(X),61658,(X),56718,(X),,
+Socioeconomic,Income and Benefits (In 2019 inflation-adjusted dollars),Mean household income (dollars),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,Civilian noninstitutionalized population,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,With health insurance coverage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,With private health insurance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,With public coverage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,No health insurance coverage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,Civilian noninstitutionalized population under 19 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Health Insurance Coverage,No health insurance coverage,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,All families,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,With related children of the householder under 18 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,With related children of the householder under 5 years only,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,Married couple families,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,With related children of the householder under 18 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,With related children of the householder under 5 years only,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,"Families with female householder, no spouse present",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,With related children of the householder under 18 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,With related children of the householder under 5 years only,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,All people,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,Under 18 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,Related children of the householder under 18 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,Related children of the householder under 5 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,Related children of the householder 5 to 17 years,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,18 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,65 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,People in families,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Socioeconomic,Percentage of Families and People Whose Income in the Past 12 Months is Below the Poverty Level,Unrelated individuals 15 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,School Enrollment,Population 3 years and over enrolled in school,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,School Enrollment,"Nursery school, preschool",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,School Enrollment,Kindergarten,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,School Enrollment,Elementary school (grades 1-8),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,School Enrollment,High school (grades 9-12),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,School Enrollment,College or graduate school,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Population 25 years and over,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Less than 9th grade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,"9th to 12th grade, no diploma",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,High school graduate (includes equivalency),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,"Some college, no degree",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Associate's degree,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Bachelor's degree,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Graduate or professional degree,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Percent high school graduate or higher,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Education,Educational Attainment,Percent bachelor's degree or higher,28.9,(X),38.3,(X),25.3,(X),55.9,(X),26.8,(X),25.3,(X),28.2,(X),27.6,(X),35.9,(X),26.2,(X),26.3,(X),26.3,(X),41.5,(X),,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"The Census Bureau did not collect district boundaries for the 117th Congress, in keeping with the practice of not collecting the session which aligns with the decennial census. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+American Community Survey and County Business Patterns for districts in North Carolina are not currently available.  Estimates for the 116th Congressional districts and state and local geographies are available at data.census.gov.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Source: 2019 American Community Survey 1-Year Estimates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Estimates in the People, Workers, Housing, Socioeconomic, and Education tabs are from the American Community Survey (ACS). The ACS is an annual household survey developed by the U.S. Census Bureau to replace the long form of the decennial census program. Each year, the ACS samples about 3.5 million household addresses to produce nearly 11 billion estimates covering demographic, social, economic, and housing characteristics.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Except where noted, 'race' refers to people reporting only one race.  'Hispanic' refers to an ethnic category;  Hispanics may be of any race.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An '**' entry in the margin of error column indicates that either no sample observations or too few sample observations were available to compute a standard error and thus the margin of error. A statistical test is not appropriate.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"An '-' entry in the estimate column indicates that either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An '-' following a median estimate means the median falls in the lowest interval of an open-ended distribution.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An '+' following a median estimate means the median falls in the upper interval of an open-ended distribution.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An '***' entry in the margin of error column indicates that the median falls in the lowest interval or upper interval of an open-ended distribution. A statistical test is not appropriate.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An '*****' entry in the margin of error column indicates that the estimate is controlled. A statistical test for sampling variability is not appropriate.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An 'N' entry in the estimate and margin of error columns indicates that data for this geographic area cannot be displayed because the number of sample cases is too small.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+An '(X)' means that the estimate is not applicable or not available,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"If calculating a percentage, use the total population line within the section as the denominator. Do not use total population lines from other sections since these may have different universes.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Topic,Subject,Title,District 01 Estimate,District 01 Flag,District 02 Estimate,District 02 Flag,District 03 Estimate,District 03 Flag,District 04 Estimate,District 04 Flag,District 05 Estimate,District 05 Flag,District 06 Estimate,District 06 Flag,District 07 Estimate,District 07 Flag,District 08 Estimate,District 08 Flag,District 09 Estimate,District 09 Flag,District 10 Estimate,District 10 Flag,District 11 Estimate,District 11 Flag,District 12 Estimate,District 12 Flag,District 13 Estimate,District 13 Flag,,
+Business,Paid employees for pay period including March 12,Total for all sectors,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,"Agriculture, forestry, fishing and hunting",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,"Mining, quarrying, and oil and gas extraction",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Utilities,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Wholesale trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Retail trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Transportation and warehousing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Finance and insurance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Real estate and rental and leasing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,"Professional, scientific, and technical services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Management of companies and enterprises,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Administrative and support and waste management and remediation services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Educational services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Health care and social assistance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,"Arts, entertainment, and recreation",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Accommodation and food services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Other services (except public administration),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Paid employees for pay period including March 12,Industries not classified,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Total for all sectors,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)","Agriculture, forestry, fishing and hunting",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)","Mining, quarrying, and oil and gas extraction",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Utilities,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Wholesale trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Retail trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Transportation and warehousing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Finance and insurance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Real estate and rental and leasing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)","Professional, scientific, and technical services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Management of companies and enterprises,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Administrative and support and waste management and remediation services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Educational services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Health care and social assistance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)","Arts, entertainment, and recreation",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Accommodation and food services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Other services (except public administration),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,"Annual payroll ($1,000)",Industries not classified,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Total for all sectors,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,"Agriculture, forestry, fishing and hunting",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,"Mining, quarrying, and oil and gas extraction",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Utilities,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Construction,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Manufacturing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Wholesale trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Retail trade,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Transportation and warehousing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Information,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Finance and insurance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Real estate and rental and leasing,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,"Professional, scientific, and technical services",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Management of companies and enterprises,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Administrative and support and waste management and remediation services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Educational services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Health care and social assistance,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,"Arts, entertainment, and recreation",(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Accommodation and food services,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Other services (except public administration),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+Business,Total Establishments,Industries not classified,(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),(X),,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"The Census Bureau did not collect district boundaries for the 117th Congress, in keeping with the practice of not collecting the session which aligns with the decennial census. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+American Community Survey and County Business Patterns for districts in North Carolina are not currently available.  Estimates for the 116th Congressional districts and state and local geographies are available at data.census.gov.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Source: 2019 County Business Patterns for Congressional Districts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+(X) County Business Patterns data for the State of North Carolina is currently unavailable for this tabulation.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"1. CBP data includes the number of establishments, employment during the week of March 12, and annual payroll. CBP basic data are extracted from the Business Register (BR), a database of all known single and multi-establishment employer companies maintained and updated by the U.S. Census Bureau. Primary causes of differences between CBP employment estimates and ACS estimates: CBP does not cover the self-employed, public employment, and most agricultural employment; CBP estimates are not based on a sample survey; they represent business location as opposed to workers' residence in the district; use the week of March 12 as a reference period; and use a business source to determine industry.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2. Industries not classified - Industry could not be determined.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"3. Statewide - County Business Patterns data includes employers without a fixed location within a state (or of unknown county location), these are included under a 'statewide' classification. Statewide cases are not included in any particular congressional district (though they would be included in at-large districts). This incomplete detail causes only a slight understatement of a district's total estimates.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4. Disclosure and Quality Indicator Flag Definitions:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D Withheld to avoid disclosing data for individual companies; data are included in higher level totals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+G Cell value changed by less than 2 percent by the application of noise,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+H Cell value changed by at least 2 percent but less than 5 percent by the application of noise,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+J Cell value changed by 5 percent or more by the application of noise,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S Cell value withheld because it did not meet publication standards,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+N Not available or not comparable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+X Not applicable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
