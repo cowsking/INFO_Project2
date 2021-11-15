@@ -1,0 +1,681 @@
+<head>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/topojson.v3.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  .state {
+    fill: lightgrey;
+  }
+
+  .outline {
+    stroke: black;
+    stroke-width: 1px;
+    fill: none;
+  }
+  #incomeSlider {width: 250px;}
+</style>
+
+<body>
+  <div class="container">
+    <h2>Find some features ..</h2>
+    <a href="#" class="btn-gradient cyan mini" id="gen">#Gender#</a>
+    <a href="#" class="btn-gradient orange mini" id="rac">#Race#</a>
+    <a href="#" class="btn-gradient blue mini" id="par">#Party#</a>
+  </div>
+
+  <select id="outcomeSelect">
+    <option value="party" selected>Party</option>
+    <option value="gender">Gender</option>
+    <option value="race">Race</option>
+  </select>
+
+  <br>Filter<br>
+  <div class="income">
+    Median Household Income
+    <select id="incomeAbove">
+      <option value="true">Above</option>
+      <option value="">Below</option>
+    </select>
+    <input type="range" min="0" max="140000" value="0" class="slider" id="incomeSlider" width: "50px">
+    <g id="incomeDisplay">$0</g>
+  </div>
+  <br>
+  Percent with a Bachelor's or Higher
+  <select name="cars" id="bachelorsAbove">
+    <option value="true">Above</option>
+    <option value="">Below</option>
+  </select>
+  <input type="range" min="0" max="100" value="0" class="slider" id="bachelorsSlider">
+  <g id="bachelorsDisplay">0%</g>
+  <br />
+
+  Percent of Population of a certain race/ethnicity
+  <select id="raceSelection">
+    <option value="asian">Asian</option>
+    <option value="black">Black</option>
+    <option value="hispanic">Hispanic</option>
+    <option value="white">White</option>
+  </select>
+
+  <select id="raceAbove">
+    <option value="true">Above</option>
+    <option value="">Below</option>
+  </select>
+  <input type="range" min="0" max="100" value="0" class="slider" id="raceSlider">
+  <g id="raceDisplay">0%</g>
+  <br />
+  <!-- <svg height="700" width="1400" style="border: 1px solid black"></svg> -->
+  <div id="main" height="700" width="1400"></div>
+</body>
+<script>
+  const main = d3.select("div#main");
+
+  const svg = main
+    .append("svg")
+    .attr("width", 800)
+    .attr("height", 580)
+    .style("margin", 20);
+
+  const width = svg.attr("width");
+  const height = svg.attr("height");
+  margin = 20;
+  const mapWidth = width - margin - margin;
+  const mapHeight = height - margin - margin;
+  const map = svg
+    .append("g")
+    .attr("transform", "translate(" + 20 + "," + 20 + ")");
+
+
+  const svg2 = main
+    .append("svg")
+    .attr("width", 680)
+    .attr("height", 580)
+    .style("margin", 20);
+
+  const width2 = svg2.attr("width");
+  const height2 = svg2.attr("height");
+  const pieWidth = width2 - margin;
+  const pieHeight = height2 - margin - margin;
+  const chart = svg2
+    .append("g")
+    .attr("transform", "translate(" + 20 + "," + 20 + ")");
+  // const name = document.querySelector("container");
+  // const btn = document.querySelector("button");
+  // btn.addEventListener("click", changemap());
+
+  const requestData = async function () {
+    const us_house = await d3.json("./us-house.topojson");
+    // const us_house = await d3.json("./us-house.geojson");
+    console.log(us_house);
+    var zips = topojson.feature(us_house, us_house.objects["us-house-us-house"]);
+    var zipsMesh = topojson.mesh(us_house, us_house.objects["us-house-us-house"]);
+    
+
+    //Load District Demographics Data
+    const stateList = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut',
+      'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
+      'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri',
+      'Montana', 'Nebraska', 'Nevada', 'New_Hampshire', 'New_Jersey', 'New_Mexico', 'New_York', 'North_Carolina',
+      'North_Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode_Island', 'South_Carolina',
+      'South_Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West_Virginia',
+      'Wisconsin', 'Wyoming'
+    ];
+
+    let districtData = [];
+    for (let i = 0; i < stateList.length; i++) {
+      districtData.push(d3.csv("DistrictDemoData\\" + stateList[i] + "_District_all.csv"));
+    }
+    districtData = await Promise.all(districtData);
+    for (let i = 0; i < stateList.length; i++) {
+      districtData[i].state = stateList[i];
+    }
+    console.log(districtData);
+    console.log(zips);
+    // console.log(us_house);
+    // var center = d3.geo.centroid(us_house)
+    // var scale = 1000;
+    var projection = d3
+      .geoAlbersUsa()
+      .fitSize([mapWidth, mapHeight], zips);
+    // .scale(scale)
+    // .translate([mapWidth / 2 + 1670, mapHeight / 2 + 700]);
+    // var path = d3.geoPath().projection(projection);
+    var path = d3.geoPath().projection(projection);
+
+    // zips.features.forEach(d => {
+    //   console.log(d.properties.ethnicity);
+    // });
+
+    function genderColor(gender) {
+      if (gender == "male") {
+        return "#78e6fa";
+      }
+      if (gender == "female") {
+        return "#ff69b4";
+      }
+      else return "limegreen";
+    }
+
+    function partyColor(party) {
+      if (party == "democrat") {
+        return "#0754ed";
+      }
+      if (party == "republican") {
+        return "#ed2607";
+      }
+    }
+
+    function raceColor(race) {
+      if (race == "white-american") {
+        return "#fccd6f";
+      }
+      if (race == "african-american") {
+        return "darkblue";
+      }
+      if (race == "hispanic-american") {
+        return "#fa8072";
+      }
+      if (race == "asian-american") {
+        return "red";
+      }
+      if (race == "multi-racial-american") {
+        return "orange";
+      }
+      if (race == "native-american") {
+        return "green";
+      }
+      else {
+	return "purple";
+      }
+    }
+
+    map.append("path").datum(zipsMesh)
+      .attr("class", "outline")
+      .attr("d", path)
+      .attr("stroke", "white")
+      .attr("stroke-width", 2);
+
+
+    //initialize map
+      emptyList();
+      createCount('party');
+      reading('party');
+      pieChart(dict);
+    map.selectAll("path.state").data(zips.features)
+      .join("path")
+      .attr("class", "state")
+      .attr("d", path)
+      .style("fill", d =>  partyColor(d.properties.party));
+
+    map.append("path").datum(zipsMesh)
+      .attr("class", "outline")
+      .attr("d", path)
+      .attr("stroke", "white")
+      .attr("stroke-width", 2);
+
+    let btnGen = document.getElementById("gen");
+    btnGen.onclick = function () {
+      map.selectAll("path.state").data(zips.features)
+        .join("path")
+        .attr("class", "state")
+        .attr("d", path)
+        .style("fill", d => genderColor(d.properties.gender));
+    };
+
+
+    let btnPar = document.getElementById("par");
+    btnPar.onclick = function () {
+      map.selectAll("path.state").data(zips.features)
+        .join("path")
+        .attr("class", "state")
+        .attr("d", path)
+        .style("fill", d => partyColor(d.properties.party));
+
+      map.append("path").datum(zipsMesh)
+        .attr("class", "outline")
+        .attr("d", path)
+        .attr("stroke", "white")
+        .attr("stroke-width", 2);
+
+      emptyList();
+      createCount('party');
+      reading('party');
+      pieChart(dict);
+
+    };
+
+    let btnRac = document.getElementById("rac");
+    btnRac.onclick = function () {
+      map.selectAll("path.state").data(zips.features)
+        .join("path")
+        .attr("class", "state")
+        .attr("d", path)
+        .style("fill", d => raceColor(d.properties.ethnicity));
+
+      map.append("path").datum(zipsMesh)
+        .attr("class", "outline")
+        .attr("d", path)
+        .attr("stroke", "white")
+        .attr("stroke-width", 2);
+
+      emptyList();
+      createCount('race');
+      reading('race');
+      pieChart(dict);
+
+    };
+
+    const stateList2 = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut',
+      'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
+      'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri',
+      'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina',
+      'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
+      'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia',
+      'Wisconsin', 'Wyoming'
+    ];
+
+    const typeDictionary = {
+      "income": 198,
+      "bachelors": 240,
+      "totalPop": 19,
+      "white": 21,
+      "blackn": 22,
+      "asian": 24,
+      "hispanic": 28
+    };
+
+    //returns true if district passes filter (show color) and false if district fails filter (make it gray)
+    filter = function (state_name, district) {
+      let stateIndex = stateList2.indexOf(state_name);
+      let bachelorsIndex = 240;
+      let totalPopIndex = 19;
+      let raceIndex = typeDictionary[document.getElementById("raceSelection").value];
+      let districtIndex = "District 01 Estimate";
+      if (district != null) {
+        districtIndex = Number(district) <= 9 ? "District 0" + district + " Estimate" : "District " + district +
+          " Estimate";
+      };
+
+      let incomeCompare = Number(districtData[stateIndex][198][districtIndex]) > Number(document.getElementById(
+        "incomeSlider").value);
+      let bachelorsCompare = Number(districtData[stateIndex][240][districtIndex]) > Number(document
+        .getElementById("bachelorsSlider").value);
+      let raceCompare = (100 * Number(districtData[stateIndex][raceIndex][districtIndex]) / Number(districtData[
+        stateIndex][19][districtIndex])) > Number(document.getElementById("raceSlider").value);
+      let incomeFilter = (Boolean(incomeCompare) == Boolean(document.getElementById("incomeAbove").value));
+      let bachelorsFilter = (Boolean(bachelorsCompare) == Boolean(document.getElementById("bachelorsAbove")
+        .value));
+      let raceFilter = (Boolean(raceCompare) == Boolean(document.getElementById("raceAbove").value));
+
+      if (incomeFilter && bachelorsFilter && raceFilter){
+
+      }
+      return (incomeFilter && bachelorsFilter && raceFilter);
+    }
+    outcomeFunctions = {
+      "party": function (d) {
+        return partyColor(d.properties.party)
+      },
+      "gender": function (d) {
+        return genderColor(d.properties.gender)
+      },
+      "race": function (d) {
+        return raceColor(d.properties.ethnicity)
+      }
+    };
+    function pieFunctions(n,d){
+      if(n == 'party') {
+        if (filter(d.properties.state_name, d.properties.district)){
+          parCount(d.properties.party);
+          // console.log(d.properties.party)
+        }
+      }
+      if(n == 'gender') {
+        if (filter(d.properties.state_name, d.properties.district)){
+          genCount(d.properties.gender);
+        }
+      }
+      if(n == 'race') {
+        if (filter(d.properties.state_name, d.properties.district)){
+          raceCount(d.properties.ethnicity);
+        }
+      }
+    };
+    function pieUp(d){
+      emptyList();
+      pieFunctions(document.getElementById("outcomeSelect").value, d);
+      // console.log(d.properties.ethnicity);
+      pieChart(dict);
+      return true;
+    }
+    updateMap = function () {
+      createCount(document.getElementById("outcomeSelect").value);
+      map.selectAll("path.state").data(zips.features)
+        .join("path")
+        .style("fill", d => (filter(d.properties.state_name, d.properties.district) && pieUp(d)) ? outcomeFunctions	[document.getElementById("outcomeSelect").value](d) : "grey");
+
+    }
+
+    const incomeAbove = document.getElementById("incomeAbove");
+    const incomeSlider = document.getElementById("incomeSlider");
+    const incomeInput = document.getElementById("incomeInput");
+    //incomeSlider.onchange = function(){updateMap(incomeAbove.value, "income", incomeSlider.value)};
+    incomeSlider.oninput = function () {
+      document.getElementById("incomeDisplay").innerHTML = "$" + incomeSlider.value
+    };
+    //incomeAbove.onchange = function(){updateMap(incomeAbove.value, "income", incomeSlider.value)};
+
+    document.getElementById("incomeAbove").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("incomeSlider").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("incomeSlider").oninput = function () {
+      document.getElementById("incomeDisplay").innerHTML = "$" + incomeSlider.value
+    };
+
+    document.getElementById("bachelorsAbove").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("bachelorsSlider").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("bachelorsSlider").oninput = function () {
+      document.getElementById("bachelorsDisplay").innerHTML = bachelorsSlider.value + "%"
+    };
+
+    document.getElementById("raceAbove").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("raceSlider").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("raceSlider").oninput = function () {
+      document.getElementById("raceDisplay").innerHTML = raceSlider.value + "%"
+    };
+
+    document.getElementById("outcomeSelect").onchange = function () {
+      updateMap()
+    };
+
+
+    dict = [];
+
+    function createCount(mode) {
+      if (mode == "gender") {
+        dict = [{
+            'x': 'male',
+            'y': 0
+          },
+          {
+            'x': 'female',
+            'y': 0
+          }
+        ];
+      }
+      if (mode == "party") {
+        dict = [{
+            'x': 'democrat',
+            'y': 0
+          },
+          {
+            'x': 'republican',
+            'y': 0
+          }
+        ];
+      }
+      if (mode == "race") {
+        dict = [{
+            'x': 'white-american',
+            'y': 0
+          },
+          {
+            'x': 'african-american',
+            'y': 0
+          },
+          {
+            'x': 'hispanic-american',
+            'y': 0
+          },
+          {
+            'x': 'asian-american',
+            'y': 0
+          },
+          {
+            'x': 'multi-racial-american',
+            'y': 0
+          },
+          {
+            'x': 'native-american',
+            'y': 0
+          }
+        ];
+      }
+    }
+
+    function genCount(gender) {
+      if (gender == "male") {
+        dict[0]['y'] = dict[0]['y'] + 1;
+      }
+      if (gender == "female") {
+        dict[1]['y'] = dict[1]['y'] + 1;
+      }
+    }
+
+    function parCount(party) {
+      if (party == "democrat") {
+        dict[0]['y'] = dict[0]['y'] + 1;
+      }
+      if (party == "republican") {
+        dict[1]['y'] = dict[1]['y'] + 1;
+      }
+    }
+
+    function raceCount(race) {
+      if (race == "white-american") {
+        dict[0]['y'] = dict[0]['y'] + 1;
+      }
+      if (race == "african-american") {
+        dict[1]['y'] = dict[1]['y'] + 1;
+      }
+      if (race == "hispanic-american") {
+        dict[2]['y'] = dict[2]['y'] + 1;
+      }
+      if (race == "asian-american") {
+        dict[3]['y'] = dict[3]['y'] + 1;
+      }
+      if (race == "multi-racial-american") {
+        dict[4]['y'] = dict[4]['y'] + 1;
+      }
+      if (race == "native-american") {
+        dict[5]['y'] = dict[5]['y'] + 1;
+      }
+    }
+
+    function reading(mode) {
+      if (mode == 'gender') {
+        zips.features.forEach(d => {
+          genCount(d.properties.gender);
+        });
+      }
+      if (mode == 'race') {
+        zips.features.forEach(d => {
+          raceCount(d.properties.ethnicity);
+        });
+      }
+      if (mode == 'party') {
+        zips.features.forEach(d => {
+          parCount(d.properties.party);
+        });
+      }
+    }
+
+    const oData = [{
+      'x': '',
+      'y': 0
+    }];
+
+    function emptyList() {
+      svg2.selectAll("path").remove();
+      svg2.selectAll("text").remove();
+      svg2.selectAll("rect").remove();
+    }
+
+    // btnGen.onclick = function () {
+    //   // d3.select("#main").select("svg").remove();
+    //   createCount('gender');
+    //   reading('gender');
+    //   pieChart(dict);
+    // };
+
+    // btnPar.onclick = function () {
+    //   createCount('party');
+    //   reading('party');
+    //   pieChart(dict);
+    // };
+
+    // btnRac.onclick = function () {
+    //   createCount('race');
+    //   reading('race');
+    //   pieChart(dict);
+    // }
+    // console.log(dict);
+
+    function pieChart(oriData) {
+
+      let g = chart.append('g')
+        .attr('transform', 'translate( 140, 40 )')
+
+      //设置饼图的半径
+      let radius = Math.min(width2, height2) * 0.6 / 2
+
+      let arc = d3.arc()
+        .innerRadius(80)
+        // .outerRadius(radius)
+        .cornerRadius(10)
+
+      //饼图与文字相连的曲线起点
+      let pointStart = d3.arc()
+        .innerRadius(radius)
+        .outerRadius(radius)
+      //饼图与文字相连的曲线终点
+      let pointEnd = d3.arc()
+        .innerRadius(radius + 20)
+        .outerRadius(radius + 20)
+
+      let drawData = d3
+        .pie()
+        .value(function (d) {
+
+          return d.y
+        })
+        .sort(null)
+        .sortValues(null)
+        .startAngle(0)
+        .endAngle(Math.PI * 2)
+        .padAngle(0.05)(oriData)
+      //console.log(drawData)
+
+      let colorScale = d3
+        .scaleOrdinal()
+        .domain(d3.range(0, oriData.length))
+        .range(d3.schemeSet1);
+      g.append('g')
+        .attr('transform', 'translate( ' + radius + ', ' + radius + ' )')
+        .attr('stroke', 'steelblue')
+        .attr('stroke-width', 1)
+        .selectAll('path')
+        .data(drawData)
+        .enter()
+        .append('path')
+        .attr('fill', function (d) {
+
+          return colorScale(d.index)
+        })
+        .attr('d', function (d) {
+
+          d.outerRadius = radius;
+          return arc(d)
+        })
+        .on('mouseover', arcTween(radius + 20, 0))
+        .on('mouseout', arcTween(radius, 150))
+        .transition()
+        .duration(2000)
+        .attrTween('d', function (d) {
+
+          //初始加载时的过渡效果
+          let fn = d3.interpolate({
+
+            endAngle: d.startAngle
+          }, d)
+          return function (t) {
+
+            return arc(fn(t))
+          }
+        })
+
+      function arcTween(outerRadius, delay) {
+
+        // 设置缓动函数,为鼠标事件使用
+        return function () {
+
+          d3.select(this)
+            .transition()
+            .delay(delay)
+            .attrTween('d', function (d) {
+
+              let i = d3.interpolate(d.outerRadius, outerRadius)
+              return function (t) {
+
+                d.outerRadius = i(t)
+                return arc(d)
+              }
+            })
+        }
+      }
+      //图例
+      let legend = g.append('g')
+        .attr('transform', 'translate( ' + radius * 2.5 + ', 0 )')
+        .selectAll('g')
+        .data(drawData)
+        .enter()
+        .append('g')
+        .attr('transform', function (d, i) {
+
+          return 'translate(0,' + i * 20 + ')'
+        });
+
+      legend
+        .append('rect')
+        .attr('width', 27)
+        .attr('height', 18)
+        .attr('fill', function (d) {
+
+          return colorScale(d.index)
+        });
+      legend
+        .append('text')
+        .text(function (d) {
+
+          return d.data.x
+        })
+        .style('font-size', 10)
+        .attr('y', '1em')
+        .attr('x', '3em')
+        .attr('dy', 3)
+    }
+
+  };
+  requestData();
+
+  // svg
+  //   .append("circle")
+  //   .attr("cx", 1200)
+  //   .attr("cy", 350)
+  //   .attr("r", 150)
+  //   .style("fill", "lightblue");
+  // svg.append("text").attr("x", 1100).attr("y", 350).text("pie chart goes here");
+</script>
