@@ -281,9 +281,9 @@
       "bachelors": 240,
       "totalPop": 19,
       "white": 21,
-      "blackn": 22,
+      "black": 22,
       "asian": 24,
-      "hispanic": 28
+      "hispanic": 29
     };
 
     //returns true if district passes filter (show color) and false if district fails filter (make it gray)
@@ -297,7 +297,6 @@
         districtIndex = Number(district) <= 9 ? "District 0" + district + " Estimate" : "District " + district +
           " Estimate";
       };
-
       let incomeCompare = Number(districtData[stateIndex][198][districtIndex]) > Number(document.getElementById(
         "incomeSlider").value);
       let bachelorsCompare = Number(districtData[stateIndex][240][districtIndex]) > Number(document
@@ -391,6 +390,9 @@
       updateMap()
     };
     document.getElementById("raceSlider").onchange = function () {
+      updateMap()
+    };
+    document.getElementById("raceSelection").onchange = function () {
       updateMap()
     };
     document.getElementById("raceSlider").oninput = function () {
