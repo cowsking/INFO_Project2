@@ -18,21 +18,16 @@
 </style>
 
 <body>
-  <div class="container">
-    <h2>Find some features ..</h2>
+<h1 style="text-align:center;">US House of Representative outcomes, filtered by Congressional district demographics</h1>
+    
+<div class="container">
+<h3>Select by District Representative Outcome</h3>
     <a href="#" class="btn-gradient cyan mini" id="gen">#Gender#</a>
     <a href="#" class="btn-gradient orange mini" id="rac">#Race#</a>
     <a href="#" class="btn-gradient blue mini" id="par">#Party#</a>
-  </div>
+<br>
 
-  <select id="outcomeSelect">
-    <option value="party" selected>Party</option>
-    <option value="gender">Gender</option>
-    <option value="race">Race</option>
-  </select>
-
-  <br>Filter<br>
-  <div class="income">
+<h3>Filter by District demographics</h3>
     Median Household Income
     <select id="incomeAbove">
       <option value="true">Above</option>
@@ -40,7 +35,6 @@
     </select>
     <input type="range" min="0" max="140000" value="0" class="slider" id="incomeSlider" width: "50px">
     <g id="incomeDisplay">$0</g>
-  </div>
   <br>
   Percent with a Bachelor's or Higher
   <select name="cars" id="bachelorsAbove">
@@ -65,6 +59,7 @@
   </select>
   <input type="range" min="0" max="100" value="0" class="slider" id="raceSlider">
   <g id="raceDisplay">0%</g>
+</div>
   <br />
   <!-- <svg height="700" width="1400" style="border: 1px solid black"></svg> -->
   <div id="main" height="700" width="1400"></div>
@@ -195,9 +190,9 @@
       .attr("class", "outline")
       .attr("d", path)
       .attr("stroke", "white")
-      .attr("stroke-width", 2);
+      .attr("stroke-width", 0);
 
-
+let outcomeSelect = "party";
     //initialize map
       emptyList();
       createCount('party');
@@ -217,27 +212,15 @@
 
     let btnGen = document.getElementById("gen");
     btnGen.onclick = function () {
-      map.selectAll("path.state").data(zips.features)
-        .join("path")
-        .attr("class", "state")
-        .attr("d", path)
-        .style("fill", d => genderColor(d.properties.gender));
+	outcomeSelect = "gender";
+      updateMap();
     };
 
 
     let btnPar = document.getElementById("par");
     btnPar.onclick = function () {
-      map.selectAll("path.state").data(zips.features)
-        .join("path")
-        .attr("class", "state")
-        .attr("d", path)
-        .style("fill", d => partyColor(d.properties.party));
-
-      map.append("path").datum(zipsMesh)
-        .attr("class", "outline")
-        .attr("d", path)
-        .attr("stroke", "white")
-        .attr("stroke-width", 2);
+	outcomeSelect = "party";
+      updateMap();
 
       emptyList();
       createCount('party');
@@ -248,17 +231,8 @@
 
     let btnRac = document.getElementById("rac");
     btnRac.onclick = function () {
-      map.selectAll("path.state").data(zips.features)
-        .join("path")
-        .attr("class", "state")
-        .attr("d", path)
-        .style("fill", d => raceColor(d.properties.ethnicity));
-
-      map.append("path").datum(zipsMesh)
-        .attr("class", "outline")
-        .attr("d", path)
-        .attr("stroke", "white")
-        .attr("stroke-width", 2);
+	outcomeSelect = "race";
+      updateMap();
 
       emptyList();
       createCount('race');
@@ -344,16 +318,16 @@
     };
     function pieUp(d){
       emptyList();
-      pieFunctions(document.getElementById("outcomeSelect").value, d);
+      pieFunctions(outcomeSelect, d);
       // console.log(d.properties.ethnicity);
       pieChart(dict);
       return true;
     }
     updateMap = function () {
-      createCount(document.getElementById("outcomeSelect").value);
+      createCount(outcomeSelect);
       map.selectAll("path.state").data(zips.features)
         .join("path")
-        .style("fill", d => (filter(d.properties.state_name, d.properties.district) && pieUp(d)) ? outcomeFunctions	[document.getElementById("outcomeSelect").value](d) : "grey");
+        .style("fill", d => (filter(d.properties.state_name, d.properties.district) && pieUp(d)) ? outcomeFunctions	[outcomeSelect](d) : "grey");
 
     }
 
