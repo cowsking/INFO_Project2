@@ -82,18 +82,25 @@
     />
     <g id="raceDisplay">0%</g>
   </div>
-  <br />
   <!-- <svg height="700" width="1400" style="border: 1px solid black"></svg> -->
   <div id="main" height="700" width="1400"></div>
 </body>
 <script>
   const main = d3.select("div#main");
 
+var docWidth = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var docHeight = window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
   const svg = main
     .append("svg")
-    .attr("width", 800)
-    .attr("height", 580)
-    .style("margin", 20);
+    .attr("width", docWidth*.6)
+    .attr("height", docHeight)
+    .style("margin", 0);
 
   const width = svg.attr("width");
   const height = svg.attr("height");
@@ -106,12 +113,14 @@
 
   const svg2 = main
     .append("svg")
-    .attr("width", 680)
-    .attr("height", 580)
-    .style("margin", 20);
+    .attr("width", docWidth*.3)
+    .attr("height", docHeight)
+    .style("margin", 0);
 
   const width2 = svg2.attr("width");
   const height2 = svg2.attr("height");
+
+
   const pieWidth = width2 - margin;
   const pieHeight = height2 - margin - margin;
   const chart = svg2
@@ -669,10 +678,10 @@
     // console.log(dict);
 
     function pieChart(oriData) {
-      let g = chart.append("g").attr("transform", "translate( 140, 40 )");
+      let g = chart.append("g").attr("transform", "translate(50, 40 )");
 
       //set radius
-      let radius = (Math.min(width2, height2) * 0.6) / 2;
+      let radius = (Math.min(width2, height2) * 0.7) / 2;
 
       let arc = d3
         .arc()
@@ -725,7 +734,7 @@
         .on("mouseover", arcTween(radius + 20, 0, true))
         .on("mouseout", arcTween(radius, 150, false))
         .transition()
-        .duration(2000)
+        .duration(0)
         .attrTween("d", function (d) {
           //animate
           let fn = d3.interpolate(
@@ -830,7 +839,7 @@
       //legend
       let legend = g
         .append("g")
-        .attr("transform", "translate( " + radius * 2 + ", 0 )")
+        .attr("transform", "translate( " - radius * 10 + ", 0 )")
         .selectAll("g")
         .data(drawData)
         .enter()
