@@ -113,7 +113,7 @@ var docHeight = window.innerHeight
 
   const svg2 = main
     .append("svg")
-    .attr("width", docWidth*.3)
+    .attr("width", 500)
     .attr("height", docHeight)
     .style("margin", 0);
 
@@ -125,7 +125,7 @@ var docHeight = window.innerHeight
   const pieHeight = height2 - margin - margin;
   const chart = svg2
     .append("g")
-    .attr("transform", "translate(" + 20 + "," + 100 + ")");
+    .attr("transform", "translate(" + 20 + "," + 200 + ")");
   // const name = document.querySelector("container");
   // const btn = document.querySelector("button");
   // btn.addEventListener("click", changemap());
@@ -681,7 +681,8 @@ var docHeight = window.innerHeight
       let g = chart.append("g").attr("transform", "translate(50, 40 )");
 
       //set radius
-      let radius = (Math.min(width2, height2) * 0.7) / 2;
+      // let radius = (Math.min(width2, height2) * 0.7) / 2;
+      let radius = 140
 
       let arc = d3
         .arc()
@@ -790,13 +791,12 @@ var docHeight = window.innerHeight
       //     //rotate 使文字旋转扇形夹角一半的位置(也可不旋转)
       //     // +'rotate(' + (-90 + (d.startAngle + (d.endAngle - d.startAngle)/2) * 180 / Math.PI) + ')'
       // })
-			//文字开始点在文字中间
       .attr('transform', function(d) {
         
         x = Number(arc.centroid(d)[0])
         y =  Number(arc.centroid(d)[1])
-        // console.log('translate( ' + Number(radius + Number(arc.centroid(d)[0]))+', ' + radius + arc.centroid(d)[1] + ' )')
-      return 'translate( ' + Number(radius-10 + x)+', ' + Number(radius-20 + y) + ' )'})
+        console.log('translate( ' + Number(radius + Number(arc.centroid(d)[0]))+', ' + radius + arc.centroid(d)[1] + ' )')
+      return 'translate( ' + Number(radius-75+ x)+', ' + Number(radius + 70+ y) + ' )'})
 
       
 
@@ -839,12 +839,15 @@ var docHeight = window.innerHeight
       //legend
       let legend = g
         .append("g")
-        .attr("transform", "translate( " - radius * 10 + ", 0 )")
+        // .attr("transform", "translate( " - Number(radius * 10 * 2 - 5000) + ", 0 )")
+        .attr('transform', 'translate( 280, 0 )')
+        
         .selectAll("g")
         .data(drawData)
         .enter()
         .append("g")
         .attr("transform", function (d, i) {
+          // console.log('asd')
           return "translate(0," + i * 20 + ")";
         });
 
