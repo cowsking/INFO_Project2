@@ -20,6 +20,7 @@
 </style>
 
 <body>
+
   <h1 style="text-align: center">
     US House of Representative outcomes, filtered by Congressional district
     demographics
@@ -28,9 +29,9 @@
   <div class="container">
 
     <h3>Select by District Representative Outcome</h3>
-    <a href="#" class="btn-gradient blue mini" id="par">#Party#</a>
-    <a href="#" class="btn-gradient cyan mini" id="gen">#Gender#</a>
-    <a href="#" class="btn-gradient orange mini" id="rac">#Race#</a>
+    <a href="#" class="btn-gradient blue mini" id="par" style="font-size : 20px">Party</a>
+    <a href="#" class="btn-gradient cyan mini" id="gen" style="font-size : 20px">Gender</a>
+    <a href="#" class="btn-gradient orange mini" id="rac" style="font-size : 20px">Race</a>
     
     <br />
 
@@ -88,14 +89,15 @@
 <script>
   const main = d3.select("div#main");
 
+//find width and height of window
 const docWidth = window.innerWidth
 || document.documentElement.clientWidth
 || document.body.clientWidth;
-
 const docHeight = window.innerHeight
 || document.documentElement.clientHeight
 || document.body.clientHeight;
 
+//create graph dimensions
   const svg = main
     .append("svg")
     .attr("width", docWidth*.6)
@@ -126,14 +128,12 @@ const docHeight = window.innerHeight
   const chart = svg2
     .append("g")
     .attr("transform", "translate(" + 20 + "," + 200 + ")");
-  // const name = document.querySelector("container");
-  // const btn = document.querySelector("button");
-  // btn.addEventListener("click", changemap());
+
 
   const requestData = async function () {
+//load data
     const us_house = await d3.json("./us-house.topojson");
-    // const us_house = await d3.json("./us-house.geojson");
-    console.log(us_house);
+
     var zips = topojson.feature(
       us_house,
       us_house.objects["us-house-us-house"]
@@ -207,21 +207,8 @@ const docHeight = window.innerHeight
     for (let i = 0; i < stateList.length; i++) {
       districtData[i].state = stateList[i];
     }
-    console.log(districtData);
-    console.log(zips);
-    // console.log(us_house);
-    // var center = d3.geo.centroid(us_house)
-    // var scale = 1000;
-    var projection = d3.geoAlbersUsa().fitSize([mapWidth, mapHeight], zips);
-    // .scale(scale)
-    // .translate([mapWidth / 2 + 1670, mapHeight / 2 + 700]);
-    // var path = d3.geoPath().projection(projection);
-    var path = d3.geoPath().projection(projection);
-
-    // zips.features.forEach(d => {
-    //   console.log(d.properties.ethnicity);
-    // });
-
+    
+    //assign colors to outcomes
     function genderColor(gender) {
       if (gender == "male") {
         return "#78e6fa";
@@ -263,16 +250,13 @@ const docHeight = window.innerHeight
       }
     }
 
-    map
-      .append("path")
-      .datum(zipsMesh)
-      .attr("class", "outline")
-      .attr("d", path)
-      .attr("stroke", "white")
-      .attr("stroke-width", 0);
+    //initialize map
+    var projection = d3.geoAlbersUsa().fitSize([mapWidth, mapHeight], zips);
+    var path = d3.geoPath().projection(projection);
+
 
     let outcomeSelect = "party";
-    //initialize map
+    
     emptyList();
     createCount("party");
     reading("party");
@@ -293,6 +277,7 @@ const docHeight = window.innerHeight
       .attr("stroke", "white")
       .attr("stroke-width", 2);
 
+    //assign events to outcome buttons
     let btnGen = document.getElementById("gen");
     btnGen.onclick = function () {
       outcomeSelect = "gender";
@@ -320,6 +305,8 @@ const docHeight = window.innerHeight
       reading("race");
       pieChart(dict);
     };
+
+    //create district filtering functions
 
     const stateList2 = [
       "Alabama",
@@ -433,11 +420,12 @@ const docHeight = window.innerHeight
         return raceColor(d.properties.ethnicity);
       }
     };
+
+    //pie chart creation functions
     function pieFunctions(n, d) {
       if (n == "party") {
         if (filter(d.properties.state_name, d.properties.district)) {
           parCount(d.properties.party);
-          // console.log(d.properties.party)
         }
       }
       if (n == "gender") {
@@ -454,7 +442,6 @@ const docHeight = window.innerHeight
     function pieUp(d) {
       emptyList();
       pieFunctions(outcomeSelect, d);
-      // console.log(d.properties.ethnicity);
       pieChart(dict);
       return true;
     }
@@ -471,16 +458,7 @@ const docHeight = window.innerHeight
         );
     };
 
-    const incomeAbove = document.getElementById("incomeAbove");
-    const incomeSlider = document.getElementById("incomeSlider");
-    const incomeInput = document.getElementById("incomeInput");
-    //incomeSlider.onchange = function(){updateMap(incomeAbove.value, "income", incomeSlider.value)};
-    incomeSlider.oninput = function () {
-      document.getElementById("incomeDisplay").innerHTML =
-        "$" + incomeSlider.value;
-    };
-    //incomeAbove.onchange = function(){updateMap(incomeAbove.value, "income", incomeSlider.value)};
-
+    //assign events to filtering buttons
     document.getElementById("incomeAbove").onchange = function () {
       updateMap();
     };
@@ -516,10 +494,7 @@ const docHeight = window.innerHeight
       document.getElementById("raceDisplay").innerHTML = raceSlider.value + "%";
     };
 
-    // document.getElementById("outcomeSelect").onchange = function () {
-    //   updateMap()
-    // };
-
+    //pie chart functions
     dict = [];
 
     function createCount(mode) {
@@ -657,37 +632,17 @@ const docHeight = window.innerHeight
       svg2.selectAll("rect").remove();
     }
 
-    // btnGen.onclick = function () {
-    //   // d3.select("#main").select("svg").remove();
-    //   createCount('gender');
-    //   reading('gender');
-    //   pieChart(dict);
-    // };
-
-    // btnPar.onclick = function () {
-    //   createCount('party');
-    //   reading('party');
-    //   pieChart(dict);
-    // };
-
-    // btnRac.onclick = function () {
-    //   createCount('race');
-    //   reading('race');
-    //   pieChart(dict);
-    // }
-    // console.log(dict);
+ 
 
     function pieChart(oriData) {
       let g = chart.append("g").attr("transform", "translate(50, 40 )");
 
       //set radius
-      // let radius = (Math.min(width2, height2) * 0.7) / 2;
       let radius = 140
 
       let arc = d3
         .arc()
         .innerRadius(80)
-        // .outerRadius(radius)
         .cornerRadius(10);
 
       //radius beginning
@@ -708,12 +663,6 @@ const docHeight = window.innerHeight
         .startAngle(0)
         .endAngle(Math.PI * 2)
         .padAngle(0.05)(oriData);
-      console.log(drawData)
-
-      // let colorScale = d3
-      //   .scaleOrdinal()
-      //   .domain(d3.range(0, oriData.length))
-      //   .range(d3.schemeSet1);
       
       g.append("g")
         .attr("transform", "translate( " + radius + ", " + radius + " )")
@@ -724,9 +673,7 @@ const docHeight = window.innerHeight
         .enter()
         .append("path")
         .attr("fill", function (d) {
-          console.log(d.data.z)
           return d.data.z;
-          // return partyColor(d.properties.party);
         })
         .attr("d", function (d) {
           d.outerRadius = radius;
@@ -750,52 +697,28 @@ const docHeight = window.innerHeight
         });
 
         let sum = d3.sum(oriData, d => d.y);
+    //create pie chart popup text
     let txt = svg2.append('g')
       .attr('transform', 'translate( ' + radius + ', ' + radius + ' )')
       .selectAll('text')
       .data(drawData)
       .enter()
       .append('text')
-      //   let tooltip = svg2.append('g')
-      //   .attr("visibility","hidden")
-      // .attr('transform', 'translate( ' + radius + ', ' + radius + ' )')
-      // .append("rect")
-      //      .attr("fill", "black")
-      //      .attr("opacity", 0.9)
-      //      .attr("x", 0)
-      //      .attr("y", 0)
-      //      .attr("width",120)
-      //      .attr("height",40)
-           
+
       
      .style("visibility","hidden") 
-      // let txt = tooltip.append("text")
       .attr("fill", "black")
-      .attr('text-anchor', 'middle')
-			// //文字垂直居中
+      .attr('text-anchor', 'middle')		
       .attr('dominant-baseline', 'central')
-      .attr('font-size', '20px')
-			//格式化文字显示格式
+      .attr('font-size', '20px')		
       .text(function(d) {
-        console.log(d)
         return d.data.y;
       })  
-                    //  .attr("text-anchor","middle")
-                    //  .attr("alignment-baseline","hanging")
-                    //  .attr("x", 0)
-                    //  .attr("y", 22);
-      // .attr('transform', function(d) {
-      //   // console.log(arc.centroid(d))
-      // // arc.centroid(d)将文字平移到弧的中心
-      //   return 'translate(' + arc.centroid(d) + ','+0+ ') ' 
-      //     //rotate 使文字旋转扇形夹角一半的位置(也可不旋转)
-      //     // +'rotate(' + (-90 + (d.startAngle + (d.endAngle - d.startAngle)/2) * 180 / Math.PI) + ')'
-      // })
+                    
       .attr('transform', function(d) {
         
         x = Number(arc.centroid(d)[0])
         y =  Number(arc.centroid(d)[1])
-        console.log('translate( ' + Number(radius + Number(arc.centroid(d)[0]))+', ' + radius + arc.centroid(d)[1] + ' )')
       return 'translate( ' + Number(radius-75+ x)+', ' + Number(radius + 70+ y) + ' )'})
 
       
@@ -814,32 +737,18 @@ const docHeight = window.innerHeight
               };
             });
             if(bool){
-            //   let d = d3.select(this)
-            //   console.log(arc.centroid(d), d.fill)
-              txt.style("visibility","visible") 
-            //   .attr('transform', 'translate( ' + Number(radius + Number(arc.centroid(d)[0]))+', ' + Number(radius-20 + Number(arc.centroid(d)[1])) + ' )')
-      //         .attr('transform', function(d) {
-      } 
-      //   x = Number(arc.centroid(d)[0])
-      //   y =  Number(arc.centroid(d)[1])
-      //   // console.log('translate( ' + Number(radius + Number(arc.centroid(d)[0]))+', ' + radius + arc.centroid(d)[1] + ' )')
-      // return 'translate( ' + Number(radius + x)+', ' + Number(radius-20 + y) + ' )'})
-
-            // }
+            txt.style("visibility","visible") }
             else{
               txt.style("visibility","hidden") 
             }
             
         };
       }
-      // let sum = d3.sum(oriData, d => d.y);
-    
-      // .attr('rotate', '30') //此设置为设置每个文字中字符的旋转，上面的旋转是以文字为一个整体的旋转
 
-      //legend
+
+      //create legend
       let legend = g
         .append("g")
-        // .attr("transform", "translate( " - Number(radius * 10 * 2 - 5000) + ", 0 )")
         .attr('transform', 'translate( 280, 0 )')
         
         .selectAll("g")
@@ -847,7 +756,6 @@ const docHeight = window.innerHeight
         .enter()
         .append("g")
         .attr("transform", function (d, i) {
-          // console.log('asd')
           return "translate(0," + i * 20 + ")";
         });
 
@@ -870,12 +778,4 @@ const docHeight = window.innerHeight
     }
   };
   requestData();
-
-  // svg
-  //   .append("circle")
-  //   .attr("cx", 1200)
-  //   .attr("cy", 350)
-  //   .attr("r", 150)
-  //   .style("fill", "lightblue");
-  // svg.append("text").attr("x", 1100).attr("y", 350).text("pie chart goes here");
 </script>
