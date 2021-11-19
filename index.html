@@ -281,30 +281,36 @@
     //assign events to outcome buttons
     let btnGen = document.getElementById("gen");
     btnGen.onclick = function () {
-      outcomeSelect = "gender";
+      
+      emptyList();
+      createCount('gender');
+      reading('gender');
+      pieChart(dict);
       updateMap();
     };
 
     let btnPar = document.getElementById("par");
     btnPar.onclick = function () {
       outcomeSelect = "party";
-      updateMap();
+      
 
       emptyList();
       createCount("party");
       reading("party");
       pieChart(dict);
+      updateMap();
     };
 
     let btnRac = document.getElementById("rac");
     btnRac.onclick = function () {
       outcomeSelect = "race";
-      updateMap();
+      
 
       emptyList();
       createCount("race");
       reading("race");
       pieChart(dict);
+      updateMap();
     };
 
     //create district filtering functions
