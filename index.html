@@ -20,19 +20,19 @@
 </style>
 
 <body>
-
   <h1 style="text-align: center">
     US House of Representative outcomes, filtered by Congressional district
     demographics
   </h1>
 
   <div class="container">
-
     <h3>Select by District Representative Outcome</h3>
-    <a href="#" class="button" id="par" style="font-size : 20px">Party</a>
-    <a href="#" class="button button2" id="gen" style="font-size : 20px">Gender</a>
-    <a href="#" class="button button3" id="rac" style="font-size : 20px">Race</a>
-    
+    <a href="#" class="button" id="par" style="font-size: 20px">Party</a>
+    <a href="#" class="button button2" id="gen" style="font-size: 20px"
+      >Gender</a
+    >
+    <a href="#" class="button button3" id="rac" style="font-size: 20px">Race</a>
+
     <br />
 
     <h3>Filter by District demographics</h3>
@@ -89,18 +89,20 @@
 <script>
   const main = d3.select("div#main");
 
-//find width and height of window
-const docWidth = window.innerWidth
-|| document.documentElement.clientWidth
-|| document.body.clientWidth;
-const docHeight = window.innerHeight
-|| document.documentElement.clientHeight
-|| document.body.clientHeight;
+  //find width and height of window
+  const docWidth =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
+  const docHeight =
+    window.innerHeight ||
+    document.documentElement.clientHeight ||
+    document.body.clientHeight;
 
-//create graph dimensions
+  //create graph dimensions
   const svg = main
     .append("svg")
-    .attr("width", docWidth*.6)
+    .attr("width", docWidth * 0.6)
     .attr("height", docHeight)
     .style("margin", 0);
 
@@ -122,16 +124,14 @@ const docHeight = window.innerHeight
   const width2 = svg2.attr("width");
   const height2 = svg2.attr("height");
 
-
   const pieWidth = width2 - margin;
   const pieHeight = height2 - margin - margin;
   const chart = svg2
     .append("g")
     .attr("transform", "translate(" + 20 + "," + 200 + ")");
 
-
   const requestData = async function () {
-//load data
+    //load data
     const us_house = await d3.json("./us-house.topojson");
 
     var zips = topojson.feature(
@@ -207,7 +207,7 @@ const docHeight = window.innerHeight
     for (let i = 0; i < stateList.length; i++) {
       districtData[i].state = stateList[i];
     }
-    
+
     //assign colors to outcomes
     function genderColor(gender) {
       if (gender == "male") {
@@ -254,9 +254,8 @@ const docHeight = window.innerHeight
     var projection = d3.geoAlbersUsa().fitSize([mapWidth, mapHeight], zips);
     var path = d3.geoPath().projection(projection);
 
-
     let outcomeSelect = "party";
-    
+
     emptyList();
     createCount("party");
     reading("party");
@@ -267,7 +266,9 @@ const docHeight = window.innerHeight
       .join("path")
       .attr("class", "state")
       .attr("d", path)
-      .style("fill", (d) => partyColor(d.properties.party));
+      .style("fill", (d) => partyColor(d.properties.party))
+      .on("mouseover", mouseEntersPlot)
+      .on("mouseout", mouseLeavesPlot);
 
     map
       .append("path")
@@ -418,7 +419,7 @@ const docHeight = window.innerHeight
       },
       race: function (d) {
         return raceColor(d.properties.ethnicity);
-      }
+      },
     };
 
     //pie chart creation functions
@@ -455,7 +456,9 @@ const docHeight = window.innerHeight
           filter(d.properties.state_name, d.properties.district) && pieUp(d)
             ? outcomeFunctions[outcomeSelect](d)
             : "grey"
-        );
+        )
+        .on("mouseover", mouseEntersPlot)
+        .on("mouseout", mouseLeavesPlot);
     };
 
     //assign events to filtering buttons
@@ -503,12 +506,12 @@ const docHeight = window.innerHeight
           {
             x: "male",
             y: 0,
-            z: genderColor("male")
+            z: genderColor("male"),
           },
           {
             x: "female",
             y: 0,
-            z:genderColor("female")
+            z: genderColor("female"),
           },
         ];
       }
@@ -517,12 +520,12 @@ const docHeight = window.innerHeight
           {
             x: "democrat",
             y: 0,
-            z:partyColor("democrat")
+            z: partyColor("democrat"),
           },
           {
             x: "republican",
             y: 0,
-            z:partyColor("republican")
+            z: partyColor("republican"),
           },
         ];
       }
@@ -531,32 +534,32 @@ const docHeight = window.innerHeight
           {
             x: "white-american",
             y: 0,
-            z:raceColor("white-american")
+            z: raceColor("white-american"),
           },
           {
             x: "african-american",
             y: 0,
-            z:raceColor("african-american")
+            z: raceColor("african-american"),
           },
           {
             x: "hispanic-american",
             y: 0,
-            z:raceColor("hispanic-american")
+            z: raceColor("hispanic-american"),
           },
           {
             x: "asian-american",
             y: 0,
-            z:raceColor("asian-american")
+            z: raceColor("asian-american"),
           },
           {
             x: "multi-racial-american",
             y: 0,
-            z:raceColor("multi-racial-american")
+            z: raceColor("multi-racial-american"),
           },
           {
             x: "native-american",
             y: 0,
-            z:raceColor("native-american")
+            z: raceColor("native-american"),
           },
         ];
       }
@@ -632,22 +635,17 @@ const docHeight = window.innerHeight
       svg2.selectAll("rect").remove();
     }
 
- 
-
     function pieChart(oriData) {
       let g = chart.append("g").attr("transform", "translate(50, 40 )");
 
       //set radius
-      let radius = 140
+      let radius = 140;
 
-      let arc = d3
-        .arc()
-        .innerRadius(80)
-        .cornerRadius(10);
+      let arc = d3.arc().innerRadius(80).cornerRadius(10);
 
       //radius beginning
       let pointStart = d3.arc().innerRadius(radius).outerRadius(radius);
-      
+
       let pointEnd = d3
         .arc()
         .innerRadius(radius + 20)
@@ -663,7 +661,7 @@ const docHeight = window.innerHeight
         .startAngle(0)
         .endAngle(Math.PI * 2)
         .padAngle(0.05)(oriData);
-      
+
       g.append("g")
         .attr("transform", "translate( " + radius + ", " + radius + " )")
         .attr("stroke", "steelblue")
@@ -696,35 +694,39 @@ const docHeight = window.innerHeight
           };
         });
 
-        let sum = d3.sum(oriData, d => d.y);
-    //create pie chart popup text
-    let txt = svg2.append('g')
-      .attr('transform', 'translate( ' + radius + ', ' + radius + ' )')
-      .selectAll('text')
-      .data(drawData)
-      .enter()
-      .append('text')
+      let sum = d3.sum(oriData, (d) => d.y);
+      //create pie chart popup text
+      let txt = svg2
+        .append("g")
+        .attr("transform", "translate( " + radius + ", " + radius + " )")
+        .selectAll("text")
+        .data(drawData)
+        .enter()
+        .append("text")
 
-      
-     .style("visibility","hidden") 
-      .attr("fill", "black")
-      .attr('text-anchor', 'middle')		
-      .attr('dominant-baseline', 'central')
-      .attr('font-size', '20px')		
-      .text(function(d) {
-        return d.data.y;
-      })  
-                    
-      .attr('transform', function(d) {
-        
-        x = Number(arc.centroid(d)[0])
-        y =  Number(arc.centroid(d)[1])
-      return 'translate( ' + Number(radius-75+ x)+', ' + Number(radius + 70+ y) + ' )'})
+        .style("visibility", "hidden")
+        .attr("fill", "black")
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "central")
+        .attr("font-size", "20px")
+        .text(function (d) {
+          return d.data.y;
+        })
 
-      
+        .attr("transform", function (d) {
+          x = Number(arc.centroid(d)[0]);
+          y = Number(arc.centroid(d)[1]);
+          return (
+            "translate( " +
+            Number(radius - 75 + x) +
+            ", " +
+            Number(radius + 70 + y) +
+            " )"
+          );
+        });
 
       function arcTween(outerRadius, delay, bool) {
-        // event 
+        // event
         return function () {
           d3.select(this)
             .transition()
@@ -736,21 +738,19 @@ const docHeight = window.innerHeight
                 return arc(d);
               };
             });
-            if(bool){
-            txt.style("visibility","visible") }
-            else{
-              txt.style("visibility","hidden") 
-            }
-            
+          if (bool) {
+            txt.style("visibility", "visible");
+          } else {
+            txt.style("visibility", "hidden");
+          }
         };
       }
-
 
       //create legend
       let legend = g
         .append("g")
-        .attr('transform', 'translate( 280, 0 )')
-        
+        .attr("transform", "translate( 280, 0 )")
+
         .selectAll("g")
         .data(drawData)
         .enter()
@@ -764,17 +764,165 @@ const docHeight = window.innerHeight
         .attr("width", 27)
         .attr("height", 18)
         .attr("fill", function (d) {
-          return d.data.z;;
+          return d.data.z;
         });
       legend
         .append("text")
         .text(function (d) {
-          return d.data.x.slice(0,1).toUpperCase()+d.data.x.slice(1);
+          return d.data.x.slice(0, 1).toUpperCase() + d.data.x.slice(1);
         })
         .style("font-size", 10)
         .attr("y", "1em")
         .attr("x", "3em")
         .attr("dy", 3);
+    }
+
+    var zoom = d3
+      .zoom()
+      .scaleExtent([1, 10])
+      //.translateExtent([[-50,-50],[mapWidth+50,mapHeight+50]])  // to lock to edges
+      .on("zoom", mapZoomed);
+
+    svg.call(zoom);
+
+    svg.call(zoom.transform, d3.zoomIdentity); // Executes zoomed() once because we technically have changed the transform
+
+    function mapZoomed({ transform }) {
+      // Destructuring here directly pulls and assigns the transform
+      //    key from the *event* parameter, since we only need that one
+
+      map.attr("transform", transform.toString());
+      map.select(".outline").style("stroke-width", 0.3 / transform.k);
+    }
+
+    function clicked(event, d) {
+      console.log(d);
+
+      let bounds = path.bounds(d.geometry); // get bounds for clicked state/county
+      let dx = bounds[1][0] - bounds[0][0]; // width of state/county
+      let dy = bounds[1][1] - bounds[0][1]; // height of state/county
+      let x = (bounds[0][0] + bounds[1][0]) / 2; // center x of state/county
+      let y = (bounds[0][1] + bounds[1][1]) / 2; // center y of state/county
+
+      let scale = Math.max(
+        1,
+        Math.min(10, 0.9 / Math.max(dx / mapWidth, dy / mapHeight))
+      );
+
+      let translate = [mapWidth / 2 - x * scale, mapHeight / 2 - y * scale];
+
+      let newTransform = d3.zoomIdentity
+        .translate(translate[0], translate[1])
+        .scale(scale);
+      map.transition().duration(1000).call(zoom.transform, newTransform);
+    }
+    let tooltipWidth = 120;
+    let tooltipHeight = 40;
+
+    // At the end of lecture segment, we added this code to do the mouseover outline the "proper" way
+    let momesh = map
+      .append("path")
+      .attr("class", "mouseover outline")
+      .attr("d", "");
+    //  .attr("stroke-width")
+
+    // Stub code to draw the tooltip - we use an SVG element here
+    // You can use an absolute-positioned HTML element, but the positioning requires some more work
+    // Instead, we make something centered at (0,0) and then later use translate() to move it
+
+    //  (this is why the x position for the rect is -tooltipWidth/2.0  -- so it's centered on 0 )
+
+    let tooltip = map
+      .append("g")
+      .attr("class", "tooltip")
+      .attr("visibility", "hidden");
+    tooltip
+      .append("rect")
+      .attr("fill", "black")
+      .attr("opacity", 0.9)
+      .attr("x", -tooltipWidth / 2.0)
+      .attr("y", 0)
+      .attr("width", tooltipWidth)
+      .attr("height", tooltipHeight)
+      .style("z-index", 9999);
+    let txt = tooltip
+      .append("text")
+      .attr("fill", "white")
+      .attr("text-anchor", "middle")
+      .attr("alignment-baseline", "hanging")
+      .attr("x", 0)
+      .attr("y", 2);
+    let txt2 = tooltip
+      .append("text")
+      .attr("fill", "white")
+      .attr("text-anchor", "middle")
+      .attr("alignment-baseline", "hanging")
+      .attr("x", 0)
+      .attr("y", 22);
+
+    // d3.selectAll(".state").on("mouseenter", mouseEntersPlot);
+    // d3.selectAll(".state").on("mouseout",  mouseLeavesPlot);
+
+    function mouseEntersPlot() {
+      // Make tooltip visible
+
+      // Find the state SVG element and add stroke
+      let state = d3.select(this);
+      console.log(state);
+      let stateID = state.datum().id;
+
+      var mo = topojson.mesh(
+        us_house,
+        us_house.objects["us-house-us-house"],
+        function (a, b) {
+          return a.id === stateID || b.id === stateID;
+        }
+      );
+      console.log(mo);
+      // //  Then apply it to your special mesh that's on top of everything else
+      momesh.datum(mo).attr("d", path);
+
+      // // Original version
+      // state.attr("stroke","black")
+      //      .attr("stroke-width", 3)
+      //      .raise();
+      tooltip.style("visibility", "visible").style("z-index", 9999);
+      // Using .datum() to recover the data for the state element (because we used a .join() to make it)...
+      // ... get the name of the state and count
+      console.log(state.datum());
+      console.log(state.datum().properties.state_name);
+      txt.text(state.datum().properties.state_name);
+      txt2.text("");
+
+      // You can use the geoPath() generator to do all sorts of helpful things
+      // let centroid = path.centroid( state.datum() );  // Get the pixel "center" of the state
+      let bounds = path.bounds(state.datum()); // Get the pixel boundaries of the state
+      // // In both cases here, the geoPath() is parsing the fancy topoJSON data to figure out pixels using the projection
+
+      // Place it at the bottom of the state, centered
+      let xPos = (bounds[0][0] + bounds[1][0]) / 2.0;
+      let yPos = bounds[1][1] - 15;
+
+      // Transform the <g> group so that everything moves together easily
+      tooltip.attr("transform", `translate(${xPos},${yPos})`);
+
+      // To fix the oscillation, we add this in the CSS for .mouseover
+    }
+
+    function mouseLeavesPlot() {
+      // Hide when you leave a state
+      tooltip.style("visibility", "hidden");
+
+      let state = d3.select(this);
+
+      // Reset old style mouseover stroke
+      //  state.attr("stroke","none")
+      //       .attr("stroke-width", 0)
+      //       .lower();
+      //  // }
+
+      // Here we are hiding the mouseover mesh we added at the end of the lecture
+      momesh.attr("d", "");
     }
   };
   requestData();
