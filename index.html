@@ -21,7 +21,7 @@
 
 <body>
   <h1 style="text-align: center">
-    US House of Representative outcomes, filtered by Congressional district
+    117th Congress US House of Representative outcomes, filtered by Congressional district
     demographics
   </h1>
 
@@ -822,7 +822,7 @@
         .scale(scale);
       map.transition().duration(1000).call(zoom.transform, newTransform);
     }
-    let tooltipWidth = 120;
+    let tooltipWidth = 210;
     let tooltipHeight = 40;
 
     // At the end of lecture segment, we added this code to do the mouseover outline the "proper" way
@@ -887,17 +887,19 @@
       console.log(mo);
       // //  Then apply it to your special mesh that's on top of everything else
       momesh.datum(mo).attr("d", path);
-
+      
       // // Original version
       // state.attr("stroke","black")
       //      .attr("stroke-width", 3)
       //      .raise();
+let districtName = state.datum().properties.state_name+" District "+(state.datum().properties.district==null?	      1:state.datum().properties.district);
       tooltip.style("visibility", "visible").style("z-index", 9999);
       // Using .datum() to recover the data for the state element (because we used a .join() to make it)...
       // ... get the name of the state and count
       console.log(state.datum());
       console.log(state.datum().properties.state_name);
-      txt.text(state.datum().properties.state_name);
+
+      txt.text(districtName);
       txt2.text("");
 
       // You can use the geoPath() generator to do all sorts of helpful things
