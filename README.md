@@ -31,5 +31,7 @@ Congress is the legislative branch of the federal government and plays an import
 
 We can also easily visualize the population of people who tend to vote for democrats vs. republicans. Here are some interesting findings:
 1. Districts of predominantly white are tend to be more Republican.
+![alt  width="500" height="313"](pic/story1.png)
 
 2. Districts of higher median income tend to be more Democratic.
+![alt  width="500" height="313"](pic/story2.png)
