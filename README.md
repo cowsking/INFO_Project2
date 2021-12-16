@@ -38,3 +38,7 @@ We can also easily visualize the population of people who tend to vote for democ
 
 ## Interactive Elements:
 ![alt  width="500" height="313"](pic/story3.png)
+
+
+## Team Member Contributions
+In this project, we worked together as a whole to decide on the topic we want to choose and what datasets to look at. We decided that the bulk of our work would be to make a map showing all electoral districts. We would also have a pie chart detailing the composition of different groups. Initially, we were debating whether to choose only New York state or the whole U.S. due to the size of the data we need to process. Eventually, we decided to still include the whole U.S. because that would give us the best representation of the population, with the tradeoff being a little longer initial loading time. We assigned specific tasks according to each member’s strengths. We made a github repository to make our collaboration easier. The polishing of our work took time but it worked out fine. The work distribution seemed fair and everyone was satisfied.
