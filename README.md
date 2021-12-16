@@ -35,3 +35,6 @@ We can also easily visualize the population of people who tend to vote for democ
 
 2. Districts of higher median income tend to be more Democratic.
 ![alt  width="500" height="313"](pic/story2.png)
+
+## Interactive Elements:
+![alt  width="500" height="313"](pic/story3.png)
