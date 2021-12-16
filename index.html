@@ -877,16 +877,16 @@
       console.log(state);
       let stateID = state.datum().id;
 
-      var mo = topojson.mesh(
-        us_house,
-        us_house.objects["us-house-us-house"],
-        function (a, b) {
-          return a.id === stateID || b.id === stateID;
-        }
-      );
-      console.log(mo);
-      // //  Then apply it to your special mesh that's on top of everything else
-      momesh.datum(mo).attr("d", path);
+      // var mo = topojson.mesh(
+      //   us_house,
+      //   us_house.objects["us-house-us-house"],
+      //   function (a, b) {
+      //     return a.id === stateID || b.id === stateID;
+      //   }
+      // );
+      // console.log(mo);
+      // // //  Then apply it to your special mesh that's on top of everything else
+      // momesh.datum(mo).attr("d", path);
       
       // // Original version
       // state.attr("stroke","black")
